@@ -3,16 +3,6 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 .btn-primary {
-  /* width: 150px;
-  height: 64px;
-  flex-shrink: 0;
-  background-color: #fd6e0a;
-  color: var(--white-color, #fff);
-  font-family: Open Sans;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal; */
   border-radius: 5px;
   background: #fd6e0a;
   border: 0;
@@ -24,10 +14,23 @@ body {
   cursor: pointer;
 }
 /* nav starts here */
+.btn-contact {
+  margin-left: 17px;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  color: #fd6e0a;
+  padding: 15px 35px;
+  cursor: pointer;
+}
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 .nav-title {
   color: #181818;
@@ -51,4 +54,16 @@ nav li {
 nav a {
   text-decoration: none;
   color: #474747;
+}
+/* header */
+.header {
+  background-color: #fff8f3;
+}
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.banner .profile-picture {
+  width: 500px;
 }
