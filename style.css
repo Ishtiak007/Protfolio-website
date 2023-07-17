@@ -286,6 +286,9 @@ textarea {
   .banner {
     flex-direction: column;
   }
+  .about {
+    padding: 10px;
+  }
   .about-info-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
